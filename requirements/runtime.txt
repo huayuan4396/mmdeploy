@@ -3,7 +3,7 @@ grpcio
 matplotlib
 mmengine
 multiprocess
-numpy
+numpy<1.24
 onnx>=1.13.0
 prettytable
 protobuf<=3.20.2
