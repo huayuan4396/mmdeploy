@@ -50,6 +50,7 @@ jobs:
           python -m mim install -r requirements/codebases.txt
           python -m pip install -U numpy clip numba transformers
           python -m pip list
+          mo -h
       - name: Install mmyolo
         run: |
           git clone -b dev --depth 1 https://github.com/open-mmlab/mmyolo.git /home/runner/work/mmyolo
